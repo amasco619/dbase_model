@@ -26,4 +26,3 @@ class JobListing(models.Model):
 	title = models.CharField(max_length=100)
 	description = models.TextField()
 	date_added = models.DateTimeField(default=datetime.now, blank=True)
-	
